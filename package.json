@@ -1,25 +1,31 @@
 {
   "name": "new-server",
-  "version": "1.0.0",
-  "description": "This is my first original NodeJS server, in which I will add a FETCH API to perform requests and send information to a client-side database used will be PostgreSQL",
+  "version": "1.1.1",
+  "description": "test server",
   "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
-    "test": "console.log('Tested!');"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pecampelo/nodejs-server.git"
+    "url": "git+https://github.com/pecampelo/nodejs-server.git"
   },
-  "keywords": [
-    "node",
-    "js",
-    "server",
-    "get",
-    "post",
-    "fetch"
-  ],
-  "author": "Pedro Campelo Matheus",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/pecampelo/nodejs-server/issues"
   },
