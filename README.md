@@ -1,5 +1,3 @@
-# My first NodeJS server
-
 ## Pages needed
 ### Log-in page
 ### Confirmation process page
