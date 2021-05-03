@@ -1,10 +1,10 @@
 ## Pages needed
-### Log-in page
-### Confirmation process page
+### Log-in page (COMPLETE) 
+### Confirmation process page (COMPLETE)
 ### Folder page
 ### Upload / download
 
-## Technologies involved
+## Technologies I will involve
 * Node.Js for server-side
 * APIs: FETCH API and icanhazdadjoke api (https://icanhazdadjoke.com/api);
 * PostgreSQL for the database
