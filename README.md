@@ -7,6 +7,8 @@ I expect to be able to develop an API that could access some text files, such as
 
 [X] Log-in page
 [X] Log-in confirmation page 
+[ ] Install Mongoose NPM
+[ ] Join two server files
 [ ] Folder page
 [ ] Upload / download
 
